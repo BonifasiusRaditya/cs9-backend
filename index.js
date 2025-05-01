@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const corsOptions = {
-    origin: ["https://os.netlabdte.com"], 
+    origin: ["http://localhost:5173"], // Ganti dengan domain frontend Anda
     methods: ["GET", "POST", "PUT", "DELETE"], 
     credentials: true,  
     allowedHeaders: ["Content-Type", "Authorization"],  
